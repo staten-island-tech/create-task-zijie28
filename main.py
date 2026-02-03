@@ -29,7 +29,8 @@ def func():
                 break
             print(f"Current Values {current_value}")
                     
-            keeped = input(f"What values would you want to keep? (1 to {number_of_dices} (position) or if mutiple type out numbers with spaces inbetween or type none) \n")
+            keeped = input(f'What values would you want to keep? (1 to {number_of_dices} (position) or if mutiple type 
+                            out numbers with spaces inbetween or type none) \n')
             if keeped == 'none':
                 continue
             else:
